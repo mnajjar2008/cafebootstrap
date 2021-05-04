@@ -1,0 +1,27 @@
+.jumbotron {
+    background-image: url(/images/cafe-header.png);
+    background-repeat: no-repeat;
+
+    background-size: cover;
+    background-position: center;
+    color: rgb(20, 20, 19);
+    margin-bottom: 20px;
+}
+footer {
+    padding-top: 20px;
+    background-color: rgba(214, 148, 86, 0.2);
+}
+img {
+    width: 100%;
+}
+.row-content {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.navbar {
+    background-color: rgba(214, 148, 86, 0.2);
+}
+.cafename {
+    background-color: rgba(212, 155, 100, 0.5);
+    margin-left: 15px;
+}
