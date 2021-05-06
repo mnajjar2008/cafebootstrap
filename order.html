@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+        <!-- Additional CSS must be placed after Bootstrap CSS -->
+
+        <link rel="stylesheet" href="css/styles.css" />
+
+        <title>San Jose Cafe</title>
+    </head>
+    <body>
+        <header class="jumbotron jumbotron-fluid">
+            <div class="container" style="border: solid">
+                <div class="row">
+                    <div class="col-4 cafename">
+                        <h2>San Jose Cafe</h2>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="container" style="border: solid">
+            <nav class="nav nav-pills">
+                <a class="nav-link" href="index.html">Home</a>
+                <a class="nav-link" href="#">Menu</a>
+                <a class="nav-link" href="order.html">Order</a>
+                <a class="nav-link" href="">Locate</a>
+                <a class="nav-link" href="#">About</a>
+            </nav>
+        </div>
+        <div class="container" style="border: solid">
+            <!-- Nav pills -->
+            <ul class="nav nav-pills nav-fill" id="pills-tab" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-pastries" role="tab" aria-controls="pills-home" aria-selected="true">Pastries</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-waffles" role="tab" aria-controls="pills-profile" aria-selected="false">Waffles</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-sandwiches" role="tab" aria-controls="pills-contact" aria-selected="false">Sandwiches</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-drinks" role="tab" aria-controls="pills-contact" aria-selected="false">Drinks</a>
+                </li>
+            </ul>
+            <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="pills-pastries" role="tabpanel" aria-labelledby="pills-pastries-tab">
+                    <div class="row row-content">
+                        <div class="card col-10 col-sm-10 col-md-6 col-lg-4 mx-auto" style="border: solid">
+                            <div class="row row-card-header bg-info">
+                                <div class="col-6 text-left">Brownie</div>
+                                <div class="col-6 text-right">$1.99</div>
+                            </div>
+                            <div class="card-body" style="border: solid">
+                                <img class="card-image-top" src="images/menu items/pastries/brownie.jpeg" alt="brownie" />
+                            </div>
+                            <div class="card-footer">This house-made brownie is more fudgey than cakey and it's awesome.</div>
+                            <button type="button" class="btn btn-dark">Add</button>
+                        </div>
+
+                        <div class="card col-10 col-sm-10 col-md-6 col-lg-4 mx-auto" style="border: solid">
+                            <div class="row row-card-header bg-info">
+                                <div class="col-6 text-left">Cookie</div>
+                                <div class="col-6 text-right">$0.99</div>
+                            </div>
+                            <div class="card-body" style="border: solid">
+                                <img class="card-image-top" src="images/menu items/pastries/cookie.jpeg" alt="cookie" />
+                            </div>
+                            <div class="card-footer">Made in house every morning. Choose between chocolate chip and oatmeal raisin.</div>
+                            <button type="button" class="btn btn-dark">Add</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="pills-waffles" role="tabpanel" aria-labelledby="pills-waffles-tab">...</div>
+                <div class="tab-pane fade" id="pills-sandwiches" role="tabpanel" aria-labelledby="pills-sandwiches-tab">...</div>
+                <div class="tab-pane fade" id="pills-drinks" role="tabpanel" aria-labelledby="pills-drinks-tab">...</div>
+            </div>
+        </div>
+        <div class="container">
+            <footer>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-4 col-sm-2 offset-1">
+                            <h5>Links</h5>
+                            <ul class="list-unstyled">
+                                <li><a href="#">Home</a></li>
+                                <li><a href="aboutus.html">About</a></li>
+                                <li><a href="#">Sites</a></li>
+                                <li><a href="#">Contact</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-6 col-sm-5 text-center">
+                            <h5>Social</h5>
+                            <a href="http://instagram.com/">Instagram</a>
+                            <a href="http://facebook.com/">Facebook</a>
+                            <a href="http://twitter.com/">Twitter</a>
+                            <a href="http://youtube.com/">YouTube</a>
+                            <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i class="fa fa-instagram"></i></a>
+                            <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/"><i class="fa fa-facebook"></i></a>
+                            <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
+                            <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i class="fa fa-youtube"></i></a>
+                        </div>
+                        <div class="col-sm-4 text-center">
+                            Tel: 1-206-555-1234<br />
+                            Email: campsites@nucamp.co
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+
+        <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+        <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+        <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    </body>
+</html>

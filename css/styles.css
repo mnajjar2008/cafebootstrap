@@ -1,5 +1,5 @@
 .jumbotron {
-    background-image: url(/images/cafe-header.png);
+    background-image: url('/images/cafe-header.png');
     background-repeat: no-repeat;
 
     background-size: cover;
@@ -13,15 +13,37 @@ footer {
 }
 img {
     width: 100%;
+    height: 100%;
 }
 .row-content {
     padding-top: 20px;
     padding-bottom: 20px;
 }
-.navbar {
+.nav {
     background-color: rgba(214, 148, 86, 0.2);
+    margin-bottom: 15px;
+}
+
+.nav-link {
+    color: black;
 }
 .cafename {
     background-color: rgba(212, 155, 100, 0.5);
     margin-left: 15px;
+}
+
+.card-body {
+    padding: 0px;
+}
+
+/* for xs vertical stacking of cards*/
+.card {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.row-card-header {
+    margin: 0;
+    padding-top: 12px;
+    padding-bottom: 12px;
 }
