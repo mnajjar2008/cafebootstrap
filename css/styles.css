@@ -1,15 +1,14 @@
-.jumbotron {
-    background-image: url('/images/cafe-header.png');
-    background-repeat: no-repeat;
-
-    background-size: cover;
-    background-position: center;
-    color: rgb(20, 20, 19);
-    margin-bottom: 20px;
+.bgimage-header {
+    background-image: url('/images/Cafe-Header11.jpg');
+    background-attachment: fixed;
+}
+.hcafename {
+    height: 210px;
+    margin-left: 5px;
 }
 footer {
     padding-top: 20px;
-    background-color: rgba(214, 148, 86, 0.2);
+    background-color: rgba(214, 148, 86, 0.4);
 }
 .card-body > img {
     width: 100%;
@@ -28,8 +27,9 @@ footer {
     color: black;
 }
 .cafename {
-    background-color: rgba(212, 155, 100, 0.5);
-    margin-left: 15px;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+    color: cornsilk;
+    background-color: rgba(214, 148, 86, 0.2);
 }
 
 .card-body {
