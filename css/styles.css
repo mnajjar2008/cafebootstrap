@@ -42,3 +42,13 @@ footer {
     margin-bottom: 20px;
     border-radius: 8px;
 }
+.hrstyle {
+    height: 10px;
+    box-shadow: inset 0 9px 9px -3px rgba(214, 148, 86, 0.2);
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+boady {
+    background-color: black;
+    color: white;
+}
