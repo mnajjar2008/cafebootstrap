@@ -35,16 +35,19 @@
             <!-- Nav pills -->
             <ul class="nav nav-pills nav-fill" id="pills-tab" role="tablist">
                 <li class="nav-item">
-                    <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-pastries" role="tab" aria-controls="pills-home" aria-selected="true">Pastries</a>
+                    <a class="nav-link active" id="pills-pastries-tab" data-toggle="pill" href="#pills-pastries" role="tab" aria-controls="pills-pastries" aria-selected="true">Pastries</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-waffles" role="tab" aria-controls="pills-profile" aria-selected="false">Waffles</a>
+                    <a class="nav-link" id="pills-waffles-tab" data-toggle="pill" href="#pills-waffles" role="tab" aria-controls="pills-waffles" aria-selected="false">Waffles</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-sandwiches" role="tab" aria-controls="pills-contact" aria-selected="false">Sandwiches</a>
+                    <a class="nav-link" id="pills-breakfast-tab" data-toggle="pill" href="#pills-breakfast" role="tab" aria-controls="pills-breakfast" aria-selected="false">Breakfast</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-drinks" role="tab" aria-controls="pills-contact" aria-selected="false">Drinks</a>
+                    <a class="nav-link" id="pills-lunch-tab" data-toggle="pill" href="#pills-lunch" role="tab" aria-controls="pills-lunch" aria-selected="false">Lunch</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="pills-drinks-tab" data-toggle="pill" href="#pills-drinks" role="tab" aria-controls="pills-drinks" aria-selected="false">Drinks</a>
                 </li>
             </ul>
             <div class="tab-content" id="pills-tabContent">
@@ -54,14 +57,54 @@
                         <div class="col-9 col-sm-8 col-md-6 col-lg-4 mx-auto">
                             <div class="card">
                                 <div class="card-header justify-content-between d-flex bg-dark text-white">
-                                    <div>Brownie</div>
+                                    <div>Muffin</div>
                                     <div>$1.99</div>
                                 </div>
                                 <div class="card-body">
-                                    <img src="images/menu items/pastries/brownie.jpeg" alt="brownie" />
+                                    <img src="images/menu items/pastries/muffin.jpeg" alt="brownie" />
                                 </div>
                                 <div class="card-footer">
-                                    <p>This house-made brownie is more fudgey than cakey and it's awesome.</p>
+                                    <p>House-made Blueberry, Banana Chocolate Chip or Oat-Bran muffins. Nut free!</p>
+                                    <form class="text-right">
+                                        <label class="" for="quantity">QTY</label>
+                                        <input size="2" type="number" id="quantity" min="1" max="50" name="quantity" value="1" type="number" />
+                                        <button type="submit" class="btn btn-dark form-control">Add</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-9 col-sm-8 col-md-6 col-lg-4 mx-auto">
+                            <div class="card">
+                                <div class="card-header justify-content-between d-flex bg-dark text-white">
+                                    <div>Scone</div>
+                                    <div>$2.99</div>
+                                </div>
+                                <div class="card-body">
+                                    <img src="images/menu items/pastries/scone.jpeg" alt="brownie" />
+                                </div>
+                                <div class="card-footer">
+                                    <p>Choose between our house-made Cranberry-Orange Scone or our Fair Scone with organic raspberry jam.</p>
+                                    <form class="text-right">
+                                        <label class="" for="quantity">QTY</label>
+                                        <input size="2" type="number" id="quantity" min="1" max="50" name="quantity" value="1" type="number" />
+                                        <button type="submit" class="btn btn-dark form-control">Add</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-9 col-sm-8 col-md-6 col-lg-4 mx-auto">
+                            <div class="card">
+                                <div class="card-header justify-content-between d-flex bg-dark text-white">
+                                    <div>Cookie</div>
+                                    <div>$0.75</div>
+                                </div>
+                                <div class="card-body">
+                                    <img src="images/menu items/pastries/cookie.jpeg" alt="brownie" />
+                                </div>
+                                <div class="card-footer">
+                                    <p>Made in house every morning. Choose between chocolate chip and oatmeal raisin.</p>
                                     <form class="text-right">
                                         <label class="" for="quantity">QTY</label>
                                         <input size="2" type="number" id="quantity" min="1" max="50" name="quantity" value="1" type="number" />
@@ -94,14 +137,14 @@
                         <div class="col-9 col-sm-8 col-md-6 col-lg-4 mx-auto">
                             <div class="card">
                                 <div class="card-header justify-content-between d-flex bg-dark text-white">
-                                    <div>Brownie</div>
+                                    <div>GF Cookie</div>
                                     <div>$1.99</div>
                                 </div>
                                 <div class="card-body">
-                                    <img src="images/menu items/pastries/brownie.jpeg" alt="brownie" />
+                                    <img src="images/menu items/pastries/gf cookie.jpeg" alt="brownie" />
                                 </div>
                                 <div class="card-footer">
-                                    <p>This house-made brownie is more fudgey than cakey and it's awesome.</p>
+                                    <p>Packaged in a gluten free facility.</p>
                                     <form class="text-right">
                                         <label class="" for="quantity">QTY</label>
                                         <input size="2" type="number" id="quantity" min="1" max="50" name="quantity" value="1" type="number" />
@@ -111,14 +154,138 @@
                             </div>
                         </div>
 
+                        <div class="col-9 col-sm-8 col-md-6 col-lg-4 mx-auto">
+                            <div class="card">
+                                <div class="card-header justify-content-between d-flex bg-dark text-white">
+                                    <div>Protein Puck</div>
+                                    <div>$1.99</div>
+                                </div>
+                                <div class="card-body">
+                                    <img src="images/menu items/pastries/protein puck.jpeg" alt="brownie" />
+                                </div>
+                                <div class="card-footer">
+                                    <p>Gluten free and vegan, packaged in a gluten free facility.</p>
+                                    <form class="text-right">
+                                        <label class="" for="quantity">QTY</label>
+                                        <input size="2" type="number" id="quantity" min="1" max="50" name="quantity" value="1" type="number" />
+                                        <button type="submit" class="btn btn-dark form-control">Add</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!------------------------------------>
+                <div class="tab-pane fade" id="pills-waffles" role="tabpanel" aria-labelledby="pills-waffles-tab">
+                    <div class="row row-content">
+                        <div class="col-9 col-sm-8 col-md-6 col-lg-4 mx-auto">
+                            <div class="card">
+                                <div class="card-header justify-content-between d-flex bg-dark text-white">
+                                    <div>Vegan + Gluten Free Waffle</div>
+                                    <div>$6.25</div>
+                                </div>
+                                <div class="card-body">
+                                    <img src="images/menu items/waffles/Vegan + Gluten Free Waffle.jpeg" alt="brownie" />
+                                </div>
+                                <div class="card-footer">
+                                    <p>Made with hemp milk, vegetable oil and Bob’s Red Mill gf waffle mix and cooked on a designated vegan waffle iron</p>
+                                    <form class="text-right">
+                                        <label class="" for="quantity">QTY</label>
+                                        <input size="2" type="number" id="quantity" min="1" max="50" name="quantity" value="1" type="number" />
+                                        <button type="submit" class="btn btn-dark form-control">Add</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-9 col-sm-8 col-md-6 col-lg-4 mx-auto">
+                            <div class="card">
+                                <div class="card-header justify-content-between d-flex bg-dark text-white">
+                                    <div>Waffle</div>
+                                    <div>$3.99</div>
+                                </div>
+                                <div class="card-body">
+                                    <img src="images/menu items/waffles/waffle.jpeg" alt="brownie" />
+                                </div>
+                                <div class="card-footer">
+                                    <p>Fluffy and a little sweet, made with our very own buttermilk waffle recipe.</p>
+                                    <form class="text-right">
+                                        <label class="" for="quantity">QTY</label>
+                                        <input size="2" type="number" id="quantity" min="1" max="50" name="quantity" value="1" type="number" />
+                                        <button type="submit" class="btn btn-dark form-control">Add</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-9 col-sm-8 col-md-6 col-lg-4 mx-auto">
+                            <div class="card">
+                                <div class="card-header justify-content-between d-flex bg-dark text-white">
+                                    <div>Bacon Cheddar Waffle</div>
+                                    <div>$4.99</div>
+                                </div>
+                                <div class="card-body">
+                                    <img src="images/menu items/waffles/Bacon Cheddar Waffle.jpeg" alt="brownie" />
+                                </div>
+                                <div class="card-footer">
+                                    <p>Fluffy AND crispy, we cook the bacon and cheese right into the waffle—we recommend eating it with maple syrup for a perfect sweet and savory breakfast</p>
+                                    <form class="text-right">
+                                        <label class="" for="quantity">QTY</label>
+                                        <input size="2" type="number" id="quantity" min="1" max="50" name="quantity" value="1" type="number" />
+                                        <button type="submit" class="btn btn-dark form-control">Add</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-9 col-sm-8 col-md-6 col-lg-4 mx-auto">
+                            <div class="card">
+                                <div class="card-header justify-content-between d-flex bg-dark text-white">
+                                    <div>Pesto + Feta Waffle</div>
+                                    <div>$4.99</div>
+                                </div>
+                                <div class="card-body">
+                                    <img src="images/menu items/waffles/Pesto + Feta Waffle.jpeg" alt="brownie" />
+                                </div>
+                                <div class="card-footer">
+                                    <p>This savory waffle packs a punch with bold flavors—also, our pesto is nut-free!</p>
+                                    <form class="text-right">
+                                        <label class="" for="quantity">QTY</label>
+                                        <input size="2" type="number" id="quantity" min="1" max="50" name="quantity" value="1" type="number" />
+                                        <button type="submit" class="btn btn-dark form-control">Add</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!------------------------------------>
+                <div class="tab-pane fade" id="pills-breakfast" role="tabpanel" aria-labelledby="pills-breakfast-tab">
+                    <div class="row row-content">
+                        <div class="col-9 col-sm-8 col-md-6 col-lg-4 mx-auto">
+                            <div class="card">
+                                <div class="card-header justify-content-between d-flex bg-dark text-white">
+                                    <div>Bacon + Cheddar Sandwich</div>
+                                    <div>$5.00</div>
+                                </div>
+                                <div class="card-body">
+                                    <img src="images/menu items/breakfast/Bacon + Cheddar Sandwich.jpeg" alt="brownie" />
+                                </div>
+                                <div class="card-footer">
+                                    <p>Bacon, cheddar cheese and scrambled egg on whole wheat, sourdough, or gluten free bread.</p>
+                                    <form class="text-right">
+                                        <label class="" for="quantity">QTY</label>
+                                        <input size="2" type="number" id="quantity" min="1" max="50" name="quantity" value="1" type="number" />
+                                        <button type="submit" class="btn btn-dark form-control">Add</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
                         <div class="col-9 col-sm-8 col-md-6 col-lg-4 mx-auto">
                             <div class="card">
                                 <div class="card-header justify-content-between d-flex bg-dark text-white">
                                     <div>Turkey Sausage + Pepper Jack</div>
-                                    <div>$1.99</div>
+                                    <div>$5.99</div>
                                 </div>
                                 <div class="card-body">
-                                    <img src="images/menu items/pastries/brownie.jpeg" alt="brownie" />
+                                    <img src="images/menu items/breakfast/Turkey Sausage + Pepper Jack.jpeg" alt="brownie" />
                                 </div>
                                 <div class="card-footer">
                                     <p>Turkey sausage, pepper jack cheese and scrambled egg on whole wheat, sourdough, or gluten free bread.</p>
@@ -130,18 +297,17 @@
                                 </div>
                             </div>
                         </div>
-
                         <div class="col-9 col-sm-8 col-md-6 col-lg-4 mx-auto">
                             <div class="card">
                                 <div class="card-header justify-content-between d-flex bg-dark text-white">
-                                    <div>Brownie</div>
-                                    <div>$1.99</div>
+                                    <div>Veggie + Pepper Jack</div>
+                                    <div>$4.99</div>
                                 </div>
                                 <div class="card-body">
-                                    <img src="images/menu items/pastries/brownie.jpeg" alt="brownie" />
+                                    <img src="images/menu items/breakfast/Veggie + Pepper Jack.jpeg" alt="brownie" />
                                 </div>
                                 <div class="card-footer">
-                                    <p>This house-made brownie is more fudgey than cakey and it's awesome.</p>
+                                    <p>Spinach, tomato, scrambled egg, and pepper jack cheese.</p>
                                     <form class="text-right">
                                         <label class="" for="quantity">QTY</label>
                                         <input size="2" type="number" id="quantity" min="1" max="50" name="quantity" value="1" type="number" />
@@ -150,13 +316,461 @@
                                 </div>
                             </div>
                         </div>
-
-                        <!------------------------------------>
+                        <div class="col-9 col-sm-8 col-md-6 col-lg-4 mx-auto">
+                            <div class="card">
+                                <div class="card-header justify-content-between d-flex bg-dark text-white">
+                                    <div>Egg & Cheddar</div>
+                                    <div>$4.00</div>
+                                </div>
+                                <div class="card-body">
+                                    <img src="images/menu items/breakfast/Egg & Cheddar.jpeg" alt="brownie" />
+                                </div>
+                                <div class="card-footer">
+                                    <p>Cheddar cheese and scrambled egg on whole wheat, sourdough, or gluten free bread.</p>
+                                    <form class="text-right">
+                                        <label class="" for="quantity">QTY</label>
+                                        <input size="2" type="number" id="quantity" min="1" max="50" name="quantity" value="1" type="number" />
+                                        <button type="submit" class="btn btn-dark form-control">Add</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-9 col-sm-8 col-md-6 col-lg-4 mx-auto">
+                            <div class="card">
+                                <div class="card-header justify-content-between d-flex bg-dark text-white">
+                                    <div>Aussie Toast</div>
+                                    <div>$2.99</div>
+                                </div>
+                                <div class="card-body">
+                                    <img src="images/menu items/breakfast/Aussie Toast.jpeg" alt="brownie" />
+                                </div>
+                                <div class="card-footer">
+                                    <p>Avocado and feta cheese on toast with a spritz of lemon and salt and pepper—dress it up by adding bacon or make it vegan by taking away the cheese.</p>
+                                    <form class="text-right">
+                                        <label class="" for="quantity">QTY</label>
+                                        <input size="2" type="number" id="quantity" min="1" max="50" name="quantity" value="1" type="number" />
+                                        <button type="submit" class="btn btn-dark form-control">Add</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-9 col-sm-8 col-md-6 col-lg-4 mx-auto">
+                            <div class="card">
+                                <div class="card-header justify-content-between d-flex bg-dark text-white">
+                                    <div>Stacks</div>
+                                    <div>$3.99</div>
+                                </div>
+                                <div class="card-body">
+                                    <img src="images/menu items/breakfast/Stacks.jpeg" alt="brownie" />
+                                </div>
+                                <div class="card-footer">
+                                    <p>This is a breadless option! Two turkey sausages cut in half horizontally and cooked on the grill with cheddar cheese, tomato, and spinach between the halves.</p>
+                                    <form class="text-right">
+                                        <label class="" for="quantity">QTY</label>
+                                        <input size="2" type="number" id="quantity" min="1" max="50" name="quantity" value="1" type="number" />
+                                        <button type="submit" class="btn btn-dark form-control">Add</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-9 col-sm-8 col-md-6 col-lg-4 mx-auto">
+                            <div class="card">
+                                <div class="card-header justify-content-between d-flex bg-dark text-white">
+                                    <div>Hashbrown</div>
+                                    <div>$2.00</div>
+                                </div>
+                                <div class="card-body">
+                                    <img src="images/menu items/breakfast/Hashbrown.jpeg" alt="brownie" />
+                                </div>
+                                <div class="card-footer">
+                                    <p>Single hash brown patty cooked on our gluten free panini grill.</p>
+                                    <form class="text-right">
+                                        <label class="" for="quantity">QTY</label>
+                                        <input size="2" type="number" id="quantity" min="1" max="50" name="quantity" value="1" type="number" />
+                                        <button type="submit" class="btn btn-dark form-control">Add</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-9 col-sm-8 col-md-6 col-lg-4 mx-auto">
+                            <div class="card">
+                                <div class="card-header justify-content-between d-flex bg-dark text-white">
+                                    <div>Sides</div>
+                                    <div>$1.99</div>
+                                </div>
+                                <div class="card-body">
+                                    <img src="images/menu items/breakfast/Sides.jpeg" alt="brownie" />
+                                </div>
+                                <div class="card-footer">
+                                    <p>Available sides to pick.</p>
+                                    <form class="text-right">
+                                        <label class="" for="quantity">QTY</label>
+                                        <input size="2" type="number" id="quantity" min="1" max="50" name="quantity" value="1" type="number" />
+                                        <button type="submit" class="btn btn-dark form-control">Add</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="tab-pane fade" id="pills-waffles" role="tabpanel" aria-labelledby="pills-waffles-tab">...</div>
-                <div class="tab-pane fade" id="pills-sandwiches" role="tabpanel" aria-labelledby="pills-sandwiches-tab">...</div>
-                <div class="tab-pane fade" id="pills-drinks" role="tabpanel" aria-labelledby="pills-drinks-tab">...</div>
+                <!------------------------------------>
+                <div class="tab-pane fade" id="pills-lunch" role="tabpanel" aria-labelledby="pills-lunch-tab">
+                    <div class="row row-content">
+                        <div class="col-9 col-sm-8 col-md-6 col-lg-4 mx-auto">
+                            <div class="card">
+                                <div class="card-header justify-content-between d-flex bg-dark text-white">
+                                    <div>Chicken Avocado</div>
+                                    <div>$6.99</div>
+                                </div>
+                                <div class="card-body">
+                                    <img src="images/menu items/lunch/Chicken Avocado.jpeg" alt="brownie" />
+                                </div>
+                                <div class="card-footer">
+                                    <p>Grilled sandwich with chicken breast, mashed avocado, spinach and pepper jack cheese on your choice of sourdough, whole wheat or gluten free sandwich bread. Served with potato chips.</p>
+                                    <form class="text-right">
+                                        <label class="" for="quantity">QTY</label>
+                                        <input size="2" type="number" id="quantity" min="1" max="50" name="quantity" value="1" type="number" />
+                                        <button type="submit" class="btn btn-dark form-control">Add</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-9 col-sm-8 col-md-6 col-lg-4 mx-auto">
+                            <div class="card">
+                                <div class="card-header justify-content-between d-flex bg-dark text-white">
+                                    <div>Tomato Mozzarella</div>
+                                    <div>$5.99</div>
+                                </div>
+                                <div class="card-body">
+                                    <img src="images/menu items/lunch/Tomato Mozzarella.jpeg" alt="brownie" />
+                                </div>
+                                <div class="card-footer">
+                                    <p>Grilled tomato, spinach, mozzarella cheese and pesto on your choice of whole wheat, sourdough, or gluten free sandwich bread. Served with a side of potato chips..</p>
+                                    <form class="text-right">
+                                        <label class="" for="quantity">QTY</label>
+                                        <input size="2" type="number" id="quantity" min="1" max="50" name="quantity" value="1" type="number" />
+                                        <button type="submit" class="btn btn-dark form-control">Add</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-9 col-sm-8 col-md-6 col-lg-4 mx-auto">
+                            <div class="card">
+                                <div class="card-header justify-content-between d-flex bg-dark text-white">
+                                    <div>Ham + Cheese</div>
+                                    <div>$6.50</div>
+                                </div>
+                                <div class="card-body">
+                                    <img src="images/menu items/lunch/Ham + Cheese.jpeg" alt="brownie" />
+                                </div>
+                                <div class="card-footer">
+                                    <p>Thin slices of ham and cheddar cheese grilled with butter on your choice of whole wheat, sourdough or gluten free sandwich bread. Served with potato chips.</p>
+                                    <form class="text-right">
+                                        <label class="" for="quantity">QTY</label>
+                                        <input size="2" type="number" id="quantity" min="1" max="50" name="quantity" value="1" type="number" />
+                                        <button type="submit" class="btn btn-dark form-control">Add</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-9 col-sm-8 col-md-6 col-lg-4 mx-auto">
+                            <div class="card">
+                                <div class="card-header justify-content-between d-flex bg-dark text-white">
+                                    <div>Grilled Cheese</div>
+                                    <div>$3.99</div>
+                                </div>
+                                <div class="card-body">
+                                    <img src="images/menu items/lunch/Grilled Cheese.jpeg" alt="brownie" />
+                                </div>
+                                <div class="card-footer">
+                                    <p>Two slices of cheddar cheese, melted to perfection between two slices of whole wheat, sourdough, or gluten free sandwich bread. Served with a side of potato chips.</p>
+                                    <form class="text-right">
+                                        <label class="" for="quantity">QTY</label>
+                                        <input size="2" type="number" id="quantity" min="1" max="50" name="quantity" value="1" type="number" />
+                                        <button type="submit" class="btn btn-dark form-control">Add</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-9 col-sm-8 col-md-6 col-lg-4 mx-auto">
+                            <div class="card">
+                                <div class="card-header justify-content-between d-flex bg-dark text-white">
+                                    <div>Tomato Soup</div>
+                                    <div>$3.00</div>
+                                </div>
+                                <div class="card-body">
+                                    <img src="images/menu items/lunch/Tomato Soup.jpeg" alt="brownie" />
+                                </div>
+                                <div class="card-footer">
+                                    <p>Sweet and creamy and great with grilled cheese.</p>
+                                    <form class="text-right">
+                                        <label class="" for="quantity">QTY</label>
+                                        <input size="2" type="number" id="quantity" min="1" max="50" name="quantity" value="1" type="number" />
+                                        <button type="submit" class="btn btn-dark form-control">Add</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-9 col-sm-8 col-md-6 col-lg-4 mx-auto">
+                            <div class="card">
+                                <div class="card-header justify-content-between d-flex bg-dark text-white">
+                                    <div>Waffle Dog</div>
+                                    <div>$2.99</div>
+                                </div>
+                                <div class="card-body">
+                                    <img src="images/menu items/lunch/Waffle Dog.jpeg" alt="brownie" />
+                                </div>
+                                <div class="card-footer">
+                                    <p>All beef hot dog cooked in a thin layer of cornbread waffle batter. Awesome with ketchup and mustard—equally awesome with syrup.</p>
+                                    <form class="text-right">
+                                        <label class="" for="quantity">QTY</label>
+                                        <input size="2" type="number" id="quantity" min="1" max="50" name="quantity" value="1" type="number" />
+                                        <button type="submit" class="btn btn-dark form-control">Add</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!------------------------------------>
+                <div class="tab-pane fade" id="pills-drinks" role="tabpanel" aria-labelledby="pills-drinks-tab">
+                    <div class="row row-content">
+                        <div class="col-9 col-sm-8 col-md-6 col-lg-4 mx-auto">
+                            <div class="card">
+                                <div class="card-header justify-content-between d-flex bg-dark text-white">
+                                    <div>Drip</div>
+                                    <div>$1.99</div>
+                                </div>
+                                <div class="card-body">
+                                    <img src="images/menu items/drinks/drip.jpeg" alt="brownie" />
+                                </div>
+                                <div class="card-footer">
+                                    <p>Brewed using our Daybreak roast, a medium-dark coffee with notes of creamy chocolate malt and buttery toast</p>
+                                    <form class="text-right">
+                                        <label class="" for="quantity">QTY</label>
+                                        <input size="2" type="number" id="quantity" min="1" max="50" name="quantity" value="1" type="number" />
+                                        <button type="submit" class="btn btn-dark form-control">Add</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-9 col-sm-8 col-md-6 col-lg-4 mx-auto">
+                            <div class="card">
+                                <div class="card-header justify-content-between d-flex bg-dark text-white">
+                                    <div>Americano</div>
+                                    <div>$2.99</div>
+                                </div>
+                                <div class="card-body">
+                                    <img src="images/menu items/drinks/americano.jpeg" alt="brownie" />
+                                </div>
+                                <div class="card-footer">
+                                    <p>Americano.</p>
+                                    <form class="text-right">
+                                        <label class="" for="quantity">QTY</label>
+                                        <input size="2" type="number" id="quantity" min="1" max="50" name="quantity" value="1" type="number" />
+                                        <button type="submit" class="btn btn-dark form-control">Add</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-9 col-sm-8 col-md-6 col-lg-4 mx-auto">
+                            <div class="card">
+                                <div class="card-header justify-content-between d-flex bg-dark text-white">
+                                    <div>Double Espresso</div>
+                                    <div>$2.99</div>
+                                </div>
+                                <div class="card-body">
+                                    <img src="images/menu items/drinks/double espresso.jpeg" alt="brownie" />
+                                </div>
+                                <div class="card-footer">
+                                    <p>Two espresso shots in hot water.</p>
+                                    <form class="text-right">
+                                        <label class="" for="quantity">QTY</label>
+                                        <input size="2" type="number" id="quantity" min="1" max="50" name="quantity" value="1" type="number" />
+                                        <button type="submit" class="btn btn-dark form-control">Add</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-9 col-sm-8 col-md-6 col-lg-4 mx-auto">
+                            <div class="card">
+                                <div class="card-header justify-content-between d-flex bg-dark text-white">
+                                    <div>Cappuccino</div>
+                                    <div>$1.99</div>
+                                </div>
+                                <div class="card-body">
+                                    <img src="images/menu items/drinks/cappuccino.jpeg" alt="brownie" />
+                                </div>
+                                <div class="card-footer">
+                                    <p>Espresso and velvety foamy milk. Think of a caffeinated cloud.</p>
+                                    <form class="text-right">
+                                        <label class="" for="quantity">QTY</label>
+                                        <input size="2" type="number" id="quantity" min="1" max="50" name="quantity" value="1" type="number" />
+                                        <button type="submit" class="btn btn-dark form-control">Add</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-9 col-sm-8 col-md-6 col-lg-4 mx-auto">
+                            <div class="card">
+                                <div class="card-header justify-content-between d-flex bg-dark text-white">
+                                    <div>Latte</div>
+                                    <div>$2.99</div>
+                                </div>
+                                <div class="card-body">
+                                    <img src="images/menu items/drinks/latte.jpeg" alt="brownie" />
+                                </div>
+                                <div class="card-footer">
+                                    <p>Latte.</p>
+                                    <form class="text-right">
+                                        <label class="" for="quantity">QTY</label>
+                                        <input size="2" type="number" id="quantity" min="1" max="50" name="quantity" value="1" type="number" />
+                                        <button type="submit" class="btn btn-dark form-control">Add</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-9 col-sm-8 col-md-6 col-lg-4 mx-auto">
+                            <div class="card">
+                                <div class="card-header justify-content-between d-flex bg-dark text-white">
+                                    <div>Mocha</div>
+                                    <div>$3.99</div>
+                                </div>
+                                <div class="card-body">
+                                    <img src="images/menu items/drinks/mocha.jpeg" alt="brownie" />
+                                </div>
+                                <div class="card-footer">
+                                    <p>Semi-sweet chocolate sauce, espresso, and velvety steamed milk, topped with whip cream.</p>
+                                    <form class="text-right">
+                                        <label class="" for="quantity">QTY</label>
+                                        <input size="2" type="number" id="quantity" min="1" max="50" name="quantity" value="1" type="number" />
+                                        <button type="submit" class="btn btn-dark form-control">Add</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-9 col-sm-8 col-md-6 col-lg-4 mx-auto">
+                            <div class="card">
+                                <div class="card-header justify-content-between d-flex bg-dark text-white">
+                                    <div>White Mocha</div>
+                                    <div>$3.99</div>
+                                </div>
+                                <div class="card-body">
+                                    <img src="images/menu items/drinks/white mocha.jpeg" alt="brownie" />
+                                </div>
+                                <div class="card-footer">
+                                    <p>White chocolate powder melted into espresso and velvety steamed milk, topped with whipped cream</p>
+                                    <form class="text-right">
+                                        <label class="" for="quantity">QTY</label>
+                                        <input size="2" type="number" id="quantity" min="1" max="50" name="quantity" value="1" type="number" />
+                                        <button type="submit" class="btn btn-dark form-control">Add</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-9 col-sm-8 col-md-6 col-lg-4 mx-auto">
+                            <div class="card">
+                                <div class="card-header justify-content-between d-flex bg-dark text-white">
+                                    <div>Iced Coffee</div>
+                                    <div>$2.99</div>
+                                </div>
+                                <div class="card-body">
+                                    <img src="images/menu items/drinks/iced coffee.png" alt="brownie" />
+                                </div>
+                                <div class="card-footer">
+                                    <p>
+                                        Not available in decaf. We use the Japanese Iced Coffee method of brewing directly over ice for quick cooling—except the ice is actually coffee ice cubes to minimize watering the coffee down. Smooth and mild,
+                                        but definitely not weak. Dress it up with simple syrup and milk or drink it black.
+                                    </p>
+                                    <form class="text-right">
+                                        <label class="" for="quantity">QTY</label>
+                                        <input size="2" type="number" id="quantity" min="1" max="50" name="quantity" value="1" type="number" />
+                                        <button type="submit" class="btn btn-dark form-control">Add</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-9 col-sm-8 col-md-6 col-lg-4 mx-auto">
+                            <div class="card">
+                                <div class="card-header justify-content-between d-flex bg-dark text-white">
+                                    <div>Iced Tea</div>
+                                    <div>$1.99</div>
+                                </div>
+                                <div class="card-body">
+                                    <img src="images/menu items/drinks/Iced Tea.jpeg" alt="brownie" />
+                                </div>
+                                <div class="card-footer">
+                                    <p>Iced tea.</p>
+                                    <form class="text-right">
+                                        <label class="" for="quantity">QTY</label>
+                                        <input size="2" type="number" id="quantity" min="1" max="50" name="quantity" value="1" type="number" />
+                                        <button type="submit" class="btn btn-dark form-control">Add</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-9 col-sm-8 col-md-6 col-lg-4 mx-auto">
+                            <div class="card">
+                                <div class="card-header justify-content-between d-flex bg-dark text-white">
+                                    <div>Lemonade</div>
+                                    <div>$2.99</div>
+                                </div>
+                                <div class="card-body">
+                                    <img src="images/menu items/drinks/Lemonade.jpeg" alt="brownie" />
+                                </div>
+                                <div class="card-footer">
+                                    <p>Organic lemonade—sweet with a little tang</p>
+                                    <form class="text-right">
+                                        <label class="" for="quantity">QTY</label>
+                                        <input size="2" type="number" id="quantity" min="1" max="50" name="quantity" value="1" type="number" />
+                                        <button type="submit" class="btn btn-dark form-control">Add</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-9 col-sm-8 col-md-6 col-lg-4 mx-auto">
+                            <div class="card">
+                                <div class="card-header justify-content-between d-flex bg-dark text-white">
+                                    <div>Chai Latte</div>
+                                    <div>$2.99</div>
+                                </div>
+                                <div class="card-body">
+                                    <img src="images/menu items/drinks/chai latte.jpeg" alt="brownie" />
+                                </div>
+                                <div class="card-footer">
+                                    <p>
+                                        We use loose-leaf Sattwa chai and organic sugar to make a chai concentrate in house. A chai latte is half chai concentrate and half steamed milk (unless you like it iced!). Not too sweet, not too spicy, this
+                                        chai is mild and comforting and oh-so-tasty.
+                                    </p>
+                                    <form class="text-right">
+                                        <label class="" for="quantity">QTY</label>
+                                        <input size="2" type="number" id="quantity" min="1" max="50" name="quantity" value="1" type="number" />
+                                        <button type="submit" class="btn btn-dark form-control">Add</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-9 col-sm-8 col-md-6 col-lg-4 mx-auto">
+                            <div class="card">
+                                <div class="card-header justify-content-between d-flex bg-dark text-white">
+                                    <div>Hot Cocoa</div>
+                                    <div>$2.99</div>
+                                </div>
+                                <div class="card-body">
+                                    <img src="images/menu items/drinks/hot cocoa.jpeg" alt="brownie" />
+                                </div>
+                                <div class="card-footer">
+                                    <p>Chocolate and vanilla with steamed milk and topped with whip cream</p>
+                                    <form class="text-right">
+                                        <label class="" for="quantity">QTY</label>
+                                        <input size="2" type="number" id="quantity" min="1" max="50" name="quantity" value="1" type="number" />
+                                        <button type="submit" class="btn btn-dark form-control">Add</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="container">
