@@ -1,5 +1,5 @@
 .bgimage-header {
-    background-image: url('/images/Cafe-Header11.jpg');
+    background-image: url('../images/Cafe-Header11.jpg');
     background-attachment: fixed;
 }
 .hcafename {
@@ -8,7 +8,7 @@
 }
 footer {
     padding-top: 20px;
-    background-color: rgba(214, 148, 86, 0.4);
+    background-color: rgba(214, 148, 86, 0.5);
     min-height: 150px;
 }
 .card-body > img {
@@ -56,6 +56,20 @@ footer {
 .nav-pills .show .nav-link,
 .card-header,
 .card-footer button {
+    background-color: black;
+    color: cornsilk;
+}
+.pastyle {
+    border-radius: solid;
+    background-color: black;
+    color: cornsilk;
+}
+body,
+header,
+footer {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.menu-b {
     background-color: black;
     color: cornsilk;
 }
