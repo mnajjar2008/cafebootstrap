@@ -16,9 +16,9 @@
     <body>
         <header class="bg-image-header">
             <div class="container">
-                <div class="d-flex align-items-center hcafename">
-                    <div class="cafename">
-                        <h1>San Jose Cafe</h1>
+                <div class="row">
+                    <div class="col">
+                        <h1 class="cafename">San Jose Cafe</h1>
                     </div>
                 </div>
             </div>
@@ -64,10 +64,12 @@
                 <div class="row mt-4">
                     <div class="col-12">
                         <h4 class="abouttitle p-2">Location & Hours</h4>
-                        <p class="p-4">
+                        <h5 class="p-2">Address</h5>
+                        <address class="p-4">
+                            <i class="fa fa-map-marker" aria-hidden="true"></i>
                             1141 Ringwood Ct <br />
                             San Jose, CA 95131
-                        </p>
+                        </address>
                         <p class="p-4">
                             Monday Closed <br />
                             Tuesday 7:00 am - 3:00 pm <br />
@@ -120,19 +122,19 @@
                 </div>
             </div>
         </main>
-        <footer class="mt-5">
+        <footer>
             <div class="container">
                 <div class="row text-center">
                     <div class="col-sm text-sm-left">
                         <h5>Address</h5>
-                        <p class="">
+                        <address>
                             <i class="fa fa-map-marker" aria-hidden="true"></i>
                             1141 Ringwood Ct <br />
                             San Jose, CA 95131
-                        </p>
+                        </address>
                     </div>
                     <div class="col-sm mb-3">
-                        <h5 class="text-center">Connect</h5>
+                        <h5>Connect</h5>
                         <a class="btn btn-dark" href="http://facebook.com/"><i class="fa fa-facebook"></i></a>
                         <a class="btn btn-dark" href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
                         <a class="btn btn-dark" href="http://instagram.com/"><i class="fa fa-instagram"></i></a>
@@ -140,10 +142,10 @@
                     <div class="col-sm-12 col-lg text-sm-center">
                         <ul class="list-unstyled">
                             <li>
-                                <a class="btn" href="tel:206-555-1234"><i class="fa fa-phone-square" aria-hidden="true"></i></a> Call: 206-555-1234
+                                <a role="button" class="btn btn-sm" href="tel:206-555-1234"> <i class="fa fa-phone-square"></i> </a>Call: 206-555-1234
                             </li>
                             <li>
-                                <a class="btn" href="email:sanjosecafe@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a> Email: sanjosecafe@gmail.com
+                                <a role="button" class="btn btn-sm" href="email:sanjosecafe@gmail.com"><i class="fa fa-envelope"></i></a> Email: sanjosecafe@gmail.com
                             </li>
                         </ul>
                     </div>

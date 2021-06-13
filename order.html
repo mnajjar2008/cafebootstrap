@@ -16,9 +16,9 @@
     <body>
         <header class="bg-image-header">
             <div class="container">
-                <div class="d-flex align-items-center hcafename">
-                    <div class="cafename">
-                        <h1>San Jose Cafe</h1>
+                <div class="row">
+                    <div class="col">
+                        <h1 class="cafename">San Jose Cafe</h1>
                     </div>
                 </div>
             </div>
@@ -76,7 +76,7 @@
                 </nav>
                 <div class="tab-content" id="pills-tabContent">
                     <div class="tab-pane fade show active" id="pills-pastries" role="tabpanel" aria-labelledby="pills-pastries-tab">
-                        <div class="row row-content">
+                        <div class="row">
                             <!---------------- pastries-cards-start-------------------->
                             <article class="col-9 col-sm-8 col-md-6 col-lg-4 mx-auto">
                                 <div class="card">
@@ -202,7 +202,7 @@
                     <!-------------------pastries-cards-end----------------->
                     <!-------------------waffles-cards-start----------------->
                     <div class="tab-pane fade" id="pills-waffles" role="tabpanel" aria-labelledby="pills-waffles-tab">
-                        <div class="row row-content">
+                        <div class="row">
                             <article class="col-9 col-sm-8 col-md-6 col-lg-4 mx-auto">
                                 <div class="card">
                                     <div class="card-header justify-content-between d-flex">
@@ -284,7 +284,7 @@
                     <!-------------------waffles-cards-end----------------->
                     <!-------------------breakfast-cards-start----------------->
                     <div class="tab-pane fade" id="pills-breakfast" role="tabpanel" aria-labelledby="pills-breakfast-tab">
-                        <div class="row row-content">
+                        <div class="row">
                             <article class="col-9 col-sm-8 col-md-6 col-lg-4 mx-auto">
                                 <div class="card">
                                     <div class="card-header justify-content-between d-flex">
@@ -442,7 +442,7 @@
                     <!-------------------breakfast-cards-start----------------->
                     <!----------------------lunch-cards-start------------------>
                     <div class="tab-pane fade" id="pills-lunch" role="tabpanel" aria-labelledby="pills-lunch-tab">
-                        <div class="row row-content">
+                        <div class="row">
                             <article class="col-9 col-sm-8 col-md-6 col-lg-4 mx-auto">
                                 <div class="card">
                                     <div class="card-header justify-content-between d-flex">
@@ -562,7 +562,7 @@
                     <!----------------------lunch-cards-end------------------>
                     <!----------------------drinks-cards-start------------------>
                     <div class="tab-pane fade" id="pills-drinks" role="tabpanel" aria-labelledby="pills-drinks-tab">
-                        <div class="row row-content">
+                        <div class="row">
                             <article class="col-9 col-sm-8 col-md-6 col-lg-4 mx-auto">
                                 <div class="card">
                                     <div class="card-header justify-content-between d-flex">
@@ -803,19 +803,19 @@
                 </div>
             </section>
         </main>
-        <footer class="mt-5">
+        <footer>
             <div class="container">
                 <div class="row text-center">
                     <div class="col-sm text-sm-left">
                         <h5>Address</h5>
-                        <p>
+                        <address>
                             <i class="fa fa-map-marker" aria-hidden="true"></i>
                             1141 Ringwood Ct <br />
                             San Jose, CA 95131
-                        </p>
+                        </address>
                     </div>
                     <div class="col-sm mb-3">
-                        <h5 class="text-center">Connect</h5>
+                        <h5>Connect</h5>
                         <a class="btn btn-dark" href="http://facebook.com/"><i class="fa fa-facebook"></i></a>
                         <a class="btn btn-dark" href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
                         <a class="btn btn-dark" href="http://instagram.com/"><i class="fa fa-instagram"></i></a>
@@ -823,10 +823,10 @@
                     <div class="col-sm-12 col-lg text-sm-center">
                         <ul class="list-unstyled">
                             <li>
-                                <a class="btn" href="tel:206-555-1234"><i class="fa fa-phone-square" aria-hidden="true"></i></a> Call: 206-555-1234
+                                <a role="button" class="btn btn-sm" href="tel:206-555-1234"> <i class="fa fa-phone-square"></i> </a>Call: 206-555-1234
                             </li>
                             <li>
-                                <a class="btn" href="email:sanjosecafe@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a> Email: sanjosecafe@gmail.com
+                                <a role="button" class="btn btn-sm" href="email:sanjosecafe@gmail.com"><i class="fa fa-envelope"></i></a> Email: sanjosecafe@gmail.com
                             </li>
                         </ul>
                     </div>
