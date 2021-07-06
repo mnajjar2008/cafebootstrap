@@ -1,18 +1,39 @@
-body,
-header,
-footer {
+body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .bg-image-header {
     background-image: url('../images/Cafe-Header11.jpg');
     background-attachment: fixed;
-    padding: 60px;
+    padding: 70px;
 }
 
 .cafename {
     text-shadow: 2px 2px 5px rgb(0, 0, 0);
     color: cornsilk;
+}
+
+.nav {
+    background-color: rgba(214, 148, 86, 0.2);
+    margin-bottom: 15px;
+}
+
+.nav-link {
+    color: black;
+}
+
+.nav-pills .nav-item a:hover {
+    background-color: black;
+    color: cornsilk;
+    border-radius: 0.5rem;
+}
+
+.nav-item .nav-link.active,
+.card-header,
+.card-footer button {
+    background-color: black;
+    color: cornsilk;
+    border-radius: 0.5rem;
 }
 
 /* for xs vertical stacking of cards */
@@ -26,21 +47,12 @@ footer {
     padding: 0px;
 }
 
-.card-body > img {
+.card-body img {
     width: 100%;
-    height: 100%;
+    height:250px;
 }
 figure.card-body {
     margin-bottom: 0;
-}
-
-.nav {
-    background-color: rgba(214, 148, 86, 0.2);
-    margin-bottom: 15px;
-}
-
-.nav-link {
-    color: black;
 }
 
 .hrstyle {
@@ -50,27 +62,8 @@ figure.card-body {
     margin-bottom: 0px;
 }
 
-.abouttitle {
+.about-section-title {
     background-color: rgba(214, 148, 86, 0.2);
-}
-
-.nav-pills .nav-link.active,
-.nav-pills .show .nav-link,
-.card-header,
-.card-footer button {
-    background-color: black;
-    color: cornsilk;
-}
-
-.pastyle {
-    border-radius: solid;
-    background-color: black;
-    color: cornsilk;
-}
-
-.menu-b {
-    background-color: black;
-    color: cornsilk;
 }
 
 h6 {
